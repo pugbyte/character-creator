@@ -5,6 +5,15 @@
 
 .maxWidthWrapper {
   max-width: 1024px;
+  isolation: isolate;
+}
+
+.perspectiveDecoration {
+  width: 100vw;
+  height: 40vh;
+  position: fixed;
+  bottom: 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
 
 .header {
